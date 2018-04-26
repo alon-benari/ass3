@@ -1,0 +1,31 @@
+
+#first{
+    background-color: powderblue;
+}
+
+h1 {
+    color: blue;
+}
+p {
+    color: rgb(15, 1, 1);
+}
+
+.box {
+  width:100px;
+  height:100px;
+  background-color: rgb(220, 204, 235)
+}
+
+
+#boxWithin1 {
+  width:10px;
+  height:10px;
+  background-color:red
+}
+
+#boxWithin2 {
+  width:10px;
+  height:10px;
+
+  background-color:green
+}

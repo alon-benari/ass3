@@ -1,0 +1,19 @@
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td{
+  text-align: center;
+  
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+  
+th {
+ border:1px solid black;
+ widows: 25%;;
+ 
+}

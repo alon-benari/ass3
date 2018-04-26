@@ -21,7 +21,7 @@
       <tr><td>{{n9318}}</td><td>{{n10}}</td></tr>
       <tr><td>{{n3045}}</td><td>{{n4}}</td></tr>
     </table>
-    <table style="visibility:hidden;" id="table2" class="example" cellspacing="0">
+    <table  id="table2" class="example" cellspacing="0">
       <tr>
         <td>{{PartNumber}}</td>
         <td>{{Length}}</td>
@@ -31,7 +31,7 @@
       <tr><td>{{n9318}}</td><td>{{n10}}</td></tr>
       <tr><td>{{n3045}}</td><td>{{n4}}</td></tr>
     </table>
-    <table style="visibility:hidden;" id="table3" class="example" cellspacing="0">
+    <table  id="table3" class="example" cellspacing="0">
       <tr>
         <td>{{PartNumber}}</td>
         <td>{{Length}}</td>
@@ -96,10 +96,10 @@
         TableTemplate.fillIn("table1", dict, 'Length');
         
         // fill in first column
-        // TableTemplate.fillIn("table2", dict, 'Part Number');
+        TableTemplate.fillIn("table2", dict, 'Part Number');
         
         // no column name passed in
-        // TableTemplate.fillIn("table3", dict);
+        TableTemplate.fillIn("table3", dict);
 
       })();
       //]]>
